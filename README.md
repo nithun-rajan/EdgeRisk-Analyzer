@@ -41,20 +41,30 @@ This project highlights my ability to **optimize machine learning models for emb
 
 ---
 
-## 🌟 Why This Project Stands Out
+## 🧠 System Architecture
 
-✅ Optimized deep learning model to run in **128KB RAM**  
-✅ Achieved **<1ms inference** without cloud dependency  
-✅ Integrated real-time visualization + physical alert system  
-✅ Built as a **resume-grade AI + IoT + embedded** project  
+1. **Data Pipeline:** Preprocessed 284,807 credit card transactions with 30+ features.
+2. **Model Training:** Trained a dense neural network using TensorFlow; quantized to int8.
+3. **Model Deployment:** Deployed using TensorFlow Lite Micro on ESP32 (128KB RAM).
+4. **On-Device Execution:** Real-time inference + OLED visualization + LED alerts.
+5. **Hardware I/O:** Inputs simulated via serial; output shown via OLED & LEDs.
+6. **Connectivity Layer:** WiFi/Bluetooth stack initialized for future cloud/phone alerts.
 
 ---
+## 🛠️ Build & Deployment Pipeline
 
-## 🚧 Next Steps
+1. Train fraud detection model in Python with TensorFlow
+2. Quantize model using post-training int8 quantization
+3. Convert `.h` model file using `xxd` for microcontroller use
+4. Integrate model into Arduino IDE via `TensorFlowLite.h` and `fraud_model.h`
+5. Program OLED and GPIO feedback via C++
+6. Upload firmware to ESP32 and test real-time predictions
+---
+## 📦 Real-World Applications
 
-- 🔗 Integrate with **AWS IoT Core** for cloud-based logging  
-- 📲 Add **mobile alerts** via WiFi/Bluetooth  
-- 🧠 Retrain using **imbalanced learning techniques** for improved fraud detection  
-- 🔒 Add on-device **basic encryption or data masking** features
+- Offline credit card scanners for remote/rural ATMs
+- Smart POS terminals with built-in fraud filtering
+- Embedded risk engines for edge IoT finance devices
+- Educational demo for ML + Embedded Systems + Security
 
 
