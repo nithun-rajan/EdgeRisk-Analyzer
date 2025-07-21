@@ -1,42 +1,60 @@
-#EdgeRisk Analyzer - Real-Time Credit Card Fraud Detection
+# 🛡️ EdgeRisk Analyzer – Real-Time Credit Card Fraud Detection on ESP32
 
-🚀 Project Overview
-EdgeRisk Analyzer is a cutting-edge, real-time embedded fraud detection system powered by a quantized deep neural network running on an ESP32 microcontroller (128KB RAM). This project showcases my ability to optimize AI models for resource-constrained environments and deliver high-performance solutions.
-🔍 Key Metrics & Highlights
+## 🚀 Project Overview  
+**EdgeRisk Analyzer** is a real-time, edge-deployed fraud detection system powered by a quantized deep neural network. Built for ultra-low-power environments, the system runs entirely on an **ESP32 microcontroller (240MHz, 128KB RAM)** using **TensorFlow Lite for Microcontrollers**, without any cloud dependence.
 
-Training Data: 284,807 real-world transactions with 30+ input features
-Accuracy: 94% training accuracy with a dense neural network
-Quantization: Optimized to int8 using TensorFlow Lite for Microcontrollers
-Inference Speed: Lightning-fast 0.06 ms per transaction
-Hardware: ESP32 Dev Module (240MHz, 128KB RAM)
-Display: Real-time OLED (SSD1306) output with:
-Transaction Amount
-Transaction ID
-Status (Safe / Fraudulent)
-Inference Time (ms)
+This project highlights my ability to **optimize machine learning models for embedded hardware** and deploy intelligent systems in constrained environments.
 
+---
 
-LED Indicators: 
-Red LED for Fraudulent (Blocked) transactions
-Green LED for Safe (Approved) transactions
-Future-Ready: WiFi & Bluetooth enabled for integration with AWS or mobile alerts
+## 🔍 Key Metrics & Highlights
 
-⚙️ Tech Stack
-Languages: Python, C++
-Frameworks: TensorFlow, TensorFlow Lite Micro , Deep Learning , Machine Learning
-Hardware: ESP32, OLED (SSD1306)
+| Feature              | Value                           |
+|----------------------|---------------------------------|
+| **Dataset**          | 284,807 real-world transactions |
+| **Features Used**    | 30+ engineered input variables  |
+| **Model Accuracy**   | 94% (training)                  |
+| **Quantization**     | int8 via TFLite Micro           |
+| **Inference Time**   | ⚡ 0.06 ms per transaction       |
+| **MCU Used**         | ESP32 Dev Module @ 240MHz (128KB RAM) |
 
-🌟 Why This Matters
-This project demonstrates my expertise in:
+### 📟 OLED Display Shows:
+- 💵 **Transaction Amount**  
+- 🔁 **Transaction ID**  
+- ✅❌ **Transaction Status** (Safe / Fraudulent)  
+- ⏱️ **Inference Time (ms)**  
 
-Developing efficient AI models for edge devices
-Optimizing neural networks for low-memory environments
-Integrating hardware with real-time data visualization
-Preparing scalable solutions with IoT capabilities
+### 🔴🟢 LED Indicators:
+- **Red LED** → Fraudulent Transaction (Blocked)  
+- **Green LED** → Safe Transaction (Approved)
 
-🚧 Next Steps
+### 📡 Future-Ready:
+- Built-in **WiFi & Bluetooth** for AWS/mobile alert integration
 
-Expand integration with cloud platforms (e.g., AWS)
-Enhance mobile alert system via WiFi/Bluetooth
-Refine model for even higher accuracy
+---
+
+## ⚙️ Tech Stack
+
+- **Languages:** Python, C++  
+- **Frameworks:** TensorFlow, TensorFlow Lite Micro  
+- **Hardware:** ESP32 Dev Module, SSD1306 OLED Display  
+
+---
+
+## 🌟 Why This Project Stands Out
+
+✅ Optimized deep learning model to run in **128KB RAM**  
+✅ Achieved **<1ms inference** without cloud dependency  
+✅ Integrated real-time visualization + physical alert system  
+✅ Built as a **resume-grade AI + IoT + embedded** project  
+
+---
+
+## 🚧 Next Steps
+
+- 🔗 Integrate with **AWS IoT Core** for cloud-based logging  
+- 📲 Add **mobile alerts** via WiFi/Bluetooth  
+- 🧠 Retrain using **imbalanced learning techniques** for improved fraud detection  
+- 🔒 Add on-device **basic encryption or data masking** features
+
 
