@@ -99,11 +99,5 @@ This project highlights my ability to **optimize machine learning models for emb
 - Embedded risk engines for edge IoT finance devices  
 - Educational demo for ML + Embedded Systems + Security  
 
----
-
-## 📬 Contact & Collaboration
-
-Open to feedback, collaboration, or integration ideas!  
-Feel free to connect on [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-HERE) or raise a GitHub issue!
 
 
