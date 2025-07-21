@@ -1,7 +1,8 @@
 # 🛡️ EdgeRisk Analyzer – Real-Time Credit Card Fraud Detection on ESP32
 
 ## 🎬 Watch It In Action  - Demo video
-🎥 [Click here to view the real-time fraud detection demo »](./IMG_2743.mp4)
+
+[![Watch the demo](https://img.youtube.com/vi/W8rHCju79kY/0.jpg)](https://youtu.be/W8rHCju79kY)
 
 ---
 
