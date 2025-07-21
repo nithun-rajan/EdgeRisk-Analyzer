@@ -50,14 +50,15 @@ This project highlights my ability to **optimize machine learning models for emb
 ![Transaction Time vs Amount](./Figure_2.png)
 
 ---
-
 ## 📸 Project Snapshots
 
 ### 🖥️ OLED Output  
-<img src="1.png" width="300"/> <img src="4.png" width="300"/>
+![OLED 1](./1.png)  
+![OLED 2](./4.png)
 
 ### 🔌 Full Hardware Setup  
-<img src="2.png" width="300"/> <img src="3.png" width="300"/>
+![Setup 1](./2.png)  
+![Setup 2](./3.png)
 
 ---
 
