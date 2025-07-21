@@ -53,10 +53,12 @@ This project highlights my ability to **optimize machine learning models for emb
 
 ## 📸 Project Snapshots
 
-| OLED Output | Hardware Setup |
-|-------------|----------------|
-| ![](./IMG_2741.HEIC) | ![](./IMG_2742.HEIC) |
-| ![](./IMG_2738.HEIC) | ![](./IMG_2740.HEIC) |
+### 🖥️ OLED Output
+<img src="images/1.png" width="300"/> <img src="images/4.png" width="300"/>
+
+### 🔌 Full Hardware Setup
+<img src="images/2.png" width="300"/> <img src="images/3.png" width="300"/>
+
 
 ---
 
