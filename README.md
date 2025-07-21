@@ -1,5 +1,11 @@
 # 🛡️ EdgeRisk Analyzer – Real-Time Credit Card Fraud Detection on ESP32
 
+## 🎥 Demo Video  
+[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)  
+> 🔗 *Click above to watch a live demo of EdgeRisk Analyzer in action!*
+
+---
+
 ## 🚀 Project Overview  
 **EdgeRisk Analyzer** is a real-time, edge-deployed fraud detection system powered by a quantized deep neural network. Built for ultra-low-power environments, the system runs entirely on an **ESP32 microcontroller (240MHz, 128KB RAM)** using **TensorFlow Lite for Microcontrollers**, without any cloud dependence.
 
@@ -33,6 +39,27 @@ This project highlights my ability to **optimize machine learning models for emb
 
 ---
 
+## 📊 Visual Insights
+
+### ⚖️ Class Distribution – Normal vs Fraudulent
+![Class Distribution](./Figure_1.png)
+
+> Note: This shows the extreme class imbalance in the dataset — a real-world challenge that makes fraud detection harder and more meaningful.
+
+### 🕵️ Transaction Scatter by Time & Amount
+![Transaction Time vs Amount](./Figure_2.png)
+
+---
+
+## 📸 Project Snapshots
+
+| OLED Output | Hardware Setup |
+|-------------|----------------|
+| ![](./IMG_2741.HEIC) | ![](./IMG_2742.HEIC) |
+| ![](./IMG_2738.HEIC) | ![](./IMG_2740.HEIC) |
+
+---
+
 ## ⚙️ Tech Stack
 
 - **Languages:** Python, C++  
@@ -51,20 +78,30 @@ This project highlights my ability to **optimize machine learning models for emb
 6. **Connectivity Layer:** WiFi/Bluetooth stack initialized for future cloud/phone alerts.
 
 ---
+
 ## 🛠️ Build & Deployment Pipeline
 
-1. Train fraud detection model in Python with TensorFlow
-2. Quantize model using post-training int8 quantization
-3. Convert `.h` model file using `xxd` for microcontroller use
-4. Integrate model into Arduino IDE via `TensorFlowLite.h` and `fraud_model.h`
-5. Program OLED and GPIO feedback via C++
-6. Upload firmware to ESP32 and test real-time predictions
+1. Train fraud detection model in Python with TensorFlow  
+2. Quantize model using post-training int8 quantization  
+3. Convert `.h` model file using `xxd` for microcontroller use  
+4. Integrate model into Arduino IDE via `TensorFlowLite.h` and `fraud_model.h`  
+5. Program OLED and GPIO feedback via C++  
+6. Upload firmware to ESP32 and test real-time predictions  
+
 ---
+
 ## 📦 Real-World Applications
 
-- Offline credit card scanners for remote/rural ATMs
-- Smart POS terminals with built-in fraud filtering
-- Embedded risk engines for edge IoT finance devices
-- Educational demo for ML + Embedded Systems + Security
+- Offline credit card scanners for remote/rural ATMs  
+- Smart POS terminals with built-in fraud filtering  
+- Embedded risk engines for edge IoT finance devices  
+- Educational demo for ML + Embedded Systems + Security  
+
+---
+
+## 📬 Contact & Collaboration
+
+Open to feedback, collaboration, or integration ideas!  
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-HERE) or raise a GitHub issue!
 
 
