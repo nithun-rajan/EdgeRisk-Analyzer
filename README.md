@@ -1,4 +1,5 @@
-EdgeRisk Analyzer - Real-Time Credit Card Fraud Detection
+#EdgeRisk Analyzer - Real-Time Credit Card Fraud Detection
+
 🚀 Project Overview
 EdgeRisk Analyzer is a cutting-edge, real-time embedded fraud detection system powered by a quantized deep neural network running on an ESP32 microcontroller (128KB RAM). This project showcases my ability to optimize AI models for resource-constrained environments and deliver high-performance solutions.
 🔍 Key Metrics & Highlights
@@ -21,9 +22,8 @@ Green LED for Safe (Approved) transactions
 Future-Ready: WiFi & Bluetooth enabled for integration with AWS or mobile alerts
 
 ⚙️ Tech Stack
-
 Languages: Python, C++
-Frameworks: TensorFlow, TensorFlow Lite Micro
+Frameworks: TensorFlow, TensorFlow Lite Micro , Deep Learning , Machine Learning
 Hardware: ESP32, OLED (SSD1306)
 
 🌟 Why This Matters
