@@ -72,6 +72,28 @@ This project highlights my ability to **optimize machine learning models for emb
 - **Hardware:** ESP32 Dev Module, SSD1306 OLED Display  
 
 ---
+## 📥 How to Use This Project
+
+🔁 Clone the Repository
+git clone https://github.com/nithun-rajan/EdgeRisk-Analyzer.git
+cd EdgeRisk-Analyzer
+🧪 Training (Python)
+Use the main.py script to train and evaluate the model on your local machine.
+
+This file:
+Loads the credit card dataset
+Trains a dense neural network
+Saves a .tflite model for quantization
+📦 Microcontroller Deployment (Arduino)
+Use the following files for ESP32 deployment:
+
+final.ino – Main firmware logic for ESP32 (handles OLED display, LED alerts, and model inference)
+fraud_model.h – Quantized model in C header format (converted using xxd)
+model.h, fraud_model.tflite – Intermediate files used for model conversion
+Upload final.ino using Arduino IDE with the following libraries:
+TensorFlowLite_ESP32
+Adafruit_GFX
+Adafruit_SSD1306
 
 ## 🧠 System Architecture
 
